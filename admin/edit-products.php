@@ -80,7 +80,7 @@ $("#suggesstion-box").hide();
 {?>
 									<div class="alert alert-success">
 										<button type="button" class="close" data-dismiss="alert">×</button>
-									<strong>Well done!</strong>	<?php echo htmlentities($_SESSION['msg']);?><?php echo htmlentities($_SESSION['msg']="");?>
+									<strong>Bien hecho!!</strong>	<?php echo htmlentities($_SESSION['msg']);?><?php echo htmlentities($_SESSION['msg']="");?>
 									</div>
 <?php } ?>
 
@@ -89,7 +89,7 @@ $("#suggesstion-box").hide();
 {?>
 									<div class="alert alert-error">
 										<button type="button" class="close" data-dismiss="alert">×</button>
-									<strong>Oh snap!</strong> 	<?php echo htmlentities($_SESSION['delmsg']);?><?php echo htmlentities($_SESSION['delmsg']="");?>
+									<strong>vaya!!</strong> 	<?php echo htmlentities($_SESSION['delmsg']);?><?php echo htmlentities($_SESSION['delmsg']="");?>
 									</div>
 <?php } ?>
 
@@ -143,54 +143,54 @@ while($rw=mysqli_fetch_array($query))
 
 
 <div class="control-group">
-<label class="control-label" for="basicinput">Product Name</label>
+<label class="control-label" for="basicinput">Nombre del producto</label>
 <div class="controls">
-<input type="text"    name="productName"  placeholder="Enter Product Name" value="<?php echo htmlentities($row['productName']);?>" class="span8 tip" >
+<input type="text"    name="productName"  placeholder="Nombre del producto" value="<?php echo htmlentities($row['productName']);?>" class="span8 tip" >
 </div>
 </div>
 
 <div class="control-group">
-<label class="control-label" for="basicinput">Product Company</label>
+<label class="control-label" for="basicinput">Compania del producto</label>
 <div class="controls">
-<input type="text"    name="productCompany"  placeholder="Enter Product Comapny Name" value="<?php echo htmlentities($row['productCompany']);?>" class="span8 tip" required>
+<input type="text"    name="productCompany"  placeholder="Compania del producto Name" value="<?php echo htmlentities($row['productCompany']);?>" class="span8 tip" required>
 </div>
 </div>
 <div class="control-group">
-<label class="control-label" for="basicinput">Product Price Before Discount</label>
+<label class="control-label" for="basicinput">Precio con descuento</label>
 <div class="controls">
-<input type="text"    name="productpricebd"  placeholder="Enter Product Price" value="<?php echo htmlentities($row['productPriceBeforeDiscount']);?>"  class="span8 tip" required>
+<input type="text"    name="productpricebd"  placeholder="Descuento" value="<?php echo htmlentities($row['productPriceBeforeDiscount']);?>"  class="span8 tip" required>
 </div>
 </div>
 
 <div class="control-group">
-<label class="control-label" for="basicinput">Product Price</label>
+<label class="control-label" for="basicinput">Precio normal</label>
 <div class="controls">
-<input type="text"    name="productprice"  placeholder="Enter Product Price" value="<?php echo htmlentities($row['productPrice']);?>" class="span8 tip" required>
+<input type="text"    name="productprice"  placeholder="Precio" value="<?php echo htmlentities($row['productPrice']);?>" class="span8 tip" required>
 </div>
 </div>
 
 <div class="control-group">
-<label class="control-label" for="basicinput">Product Description</label>
+<label class="control-label" for="basicinput">Descripcion del producto</label>
 <div class="controls">
-<textarea  name="productDescription"  placeholder="Enter Product Description" rows="6" class="span8 tip">
+<textarea  name="productDescription"  placeholder="Descripcion" rows="6" class="span8 tip">
 <?php echo htmlentities($row['productDescription']);?>
 </textarea>  
 </div>
 </div>
 
 <div class="control-group">
-<label class="control-label" for="basicinput">Product Shipping Charge</label>
+<label class="control-label" for="basicinput">Cargo de envio</label>
 <div class="controls">
-<input type="text"    name="productShippingcharge"  placeholder="Enter Product Shipping Charge" value="<?php echo htmlentities($row['shippingCharge']);?>" class="span8 tip" required>
+<input type="text"    name="productShippingcharge"  placeholder="cargo de envio" value="<?php echo htmlentities($row['shippingCharge']);?>" class="span8 tip" required>
 </div>
 </div>
 
 <div class="control-group">
-<label class="control-label" for="basicinput">Product Availability</label>
+<label class="control-label" for="basicinput">En existencias</label>
 <div class="controls">
 <select   name="productAvailability"  id="productAvailability" class="span8 tip" required>
 <option value="<?php echo htmlentities($row['productAvailability']);?>"><?php echo htmlentities($row['productAvailability']);?></option>
-<option value="In Stock">In Stock</option>
+<option value="En existencias">En existencias</option>
 <option value="Out of Stock">Out of Stock</option>
 </select>
 </div>
@@ -199,15 +199,15 @@ while($rw=mysqli_fetch_array($query))
 
 
 <div class="control-group">
-<label class="control-label" for="basicinput">Product Image1</label>
+<label class="control-label" for="basicinput">Imagen 1</label>
 <div class="controls">
-<img src="productimages/<?php echo htmlentities($pid);?>/<?php echo htmlentities($row['productImage1']);?>" width="200" height="100"> <a href="update-image1.php?id=<?php echo $row['id'];?>">Change Image</a>
+<img src="productimages/<?php echo htmlentities($pid);?>/<?php echo htmlentities($row['productImage1']);?>" width="200" height="100"> <a href="update-image1.php?id=<?php echo $row['id'];?>">Cambiar imagen</a>
 </div>
 </div>
 
 
 <div class="control-group">
-<label class="control-label" for="basicinput">Product Image2</label>
+<label class="control-label" for="basicinput">Imagen 2</label>
 <div class="controls">
 <img src="productimages/<?php echo htmlentities($pid);?>/<?php echo htmlentities($row['productImage2']);?>" width="200" height="100"> <a href="update-image2.php?id=<?php echo $row['id'];?>">Change Image</a>
 </div>
@@ -216,7 +216,7 @@ while($rw=mysqli_fetch_array($query))
 
 
 <div class="control-group">
-<label class="control-label" for="basicinput">Product Image3</label>
+<label class="control-label" for="basicinput">Imagen 3</label>
 <div class="controls">
 <img src="productimages/<?php echo htmlentities($pid);?>/<?php echo htmlentities($row['productImage3']);?>" width="200" height="100"> <a href="update-image3.php?id=<?php echo $row['id'];?>">Change Image</a>
 </div>

@@ -27,7 +27,7 @@ else{
 	    <meta name="keywords" content="MediaCenter, Template, eCommerce">
 	    <meta name="robots" content="all">
 
-	    <title>Talaveras - El alfa" | Payment Method</title>
+	    <title href="index.php">Talaveras - El alfa" | metodo de pago</title>
 	    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	    <link rel="stylesheet" href="assets/css/main.css">
 	    <link rel="stylesheet" href="assets/css/green.css">
@@ -60,8 +60,8 @@ else{
 	<div class="container">
 		<div class="breadcrumb-inner">
 			<ul class="list-inline list-unstyled">
-				<li><a href="home.html">Home</a></li>
-				<li class='active'>Payment Method</li>
+				<li><a href="home.html">inicio</a></li>
+				<li class='active'>Metodo de pago</li>
 			</ul>
 		</div><!-- /.breadcrumb-inner -->
 	</div><!-- /.container -->
@@ -72,7 +72,7 @@ else{
 		<div class="checkout-box faq-page inner-bottom-sm">
 			<div class="row">
 				<div class="col-md-12">
-					<h2>Choose Payment Method</h2>
+					<h2>Elejir metodo de pago</h2>
 					<div class="panel-group checkout-steps" id="accordion">
 						<!-- checkout-step-01  -->
 <div class="panel panel-default checkout-step-01">
@@ -81,7 +81,7 @@ else{
 		<div class="panel-heading">
     	<h4 class="unicase-checkout-title">
 	        <a data-toggle="collapse" class="" data-parent="#accordion" href="#collapseOne">
-	         Select your Payment Method
+	         seleccionar metodo de pago
 	        </a>
 	     </h4>
     </div>
@@ -92,15 +92,15 @@ else{
 		<!-- panel-body  -->
 	    <div class="panel-body">
 	    <form name="payment" method="post">
-	    <input type="radio" name="paymethod" value="COD" checked="checked"> COD
-	     <input type="radio" name="paymethod" value="Internet Banking"> Internet Banking
 	     <input type="radio" name="paymethod" value="Debit / Credit card"> Debit / Credit card <br /><br />
 	     <input type="submit" value="submit" name="submit" class="btn btn-primary">
+		 
 	    	
 
-	    </form>		
+	    </form>
+			
 		</div>
-		<!-- panel-body  -->
+		
 
 	</div><!-- row -->
 </div>

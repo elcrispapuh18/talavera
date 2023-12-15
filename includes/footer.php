@@ -9,7 +9,7 @@
         <div class="logo">
             <a href="index.php">
                 
-<h3>Talaveras - "El Alfa"</h3>
+<h3 href="index.php">Talaveras - "El Alfa"</h3>
             </a>
         </div><!-- /.logo -->
     

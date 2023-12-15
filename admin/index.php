@@ -35,7 +35,7 @@ exit();
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Talaveras "El lobo" | Admin login</title>
+	<title href="index.php">Talaveras "El Alfa" | Admin login</title>
 	<link type="text/css" href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link type="text/css" href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
 	<link type="text/css" href="css/theme.css" rel="stylesheet">
@@ -51,7 +51,7 @@ exit();
 					<i class="icon-reorder shaded"></i>
 				</a>
 
-			  	<a class="brand" href="index.html">
+			  	<a class="brand" href="index.php">
 				  Talaveras "El alfa" | Admin
 			  	</a>
 
@@ -59,7 +59,7 @@ exit();
 				
 					<ul class="nav pull-right">
 
-						<li><a href="http://localhost/shopping/">
+						<li><a href="../index.php">
 						Volver a la tienda 
 						
 						</a></li>
@@ -87,19 +87,19 @@ exit();
 						<div class="module-body">
 							<div class="control-group">
 								<div class="controls row-fluid">
-									<input class="span12" type="text" id="inputEmail" name="username" placeholder="Username">
+									<input class="span12" type="text" id="inputEmail" name="username" placeholder="nombre de usuario">
 								</div>
 							</div>
 							<div class="control-group">
 								<div class="controls row-fluid">
-						<input class="span12" type="password" id="inputPassword" name="password" placeholder="Password">
+						<input class="span12" type="password" id="inputPassword" name="password" placeholder="contraseña">
 								</div>
 							</div>
 						</div>
 						<div class="module-foot">
 							<div class="control-group">
 								<div class="controls clearfix">
-									<button type="submit" class="btn btn-primary pull-right" name="submit">Login</button>
+									<button type="submit" class="btn btn-primary pull-right" name="submit">Iniciar sesion</button>
 									
 								</div>
 							</div>
@@ -114,7 +114,7 @@ exit();
 		<div class="container">
 			 
 
-			<b class="copyright">&copy; 2017 Talaveras - "El alfa" </b> ":3"
+			<b class="copyright">&copy; 2023 Talaveras - "El alfa" </b> todos los derechos reservados
 		</div>
 	</div>
 	<script src="scripts/jquery-1.9.1.min.js" type="text/javascript"></script>

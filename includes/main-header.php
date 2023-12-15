@@ -13,7 +13,7 @@
 	}
 ?>
 <div style='display:flex;justify-content:center;'  >
-<img src="assets/images/logo.png" width="200"
+<img  src="assets/images/logo.png" width="200"
   height="200" />
 </div>
 	<div class="main-header">
@@ -22,7 +22,7 @@
 				<div class="col-xs-12 col-sm-12 col-md-3 logo-holder">
 					<!-- ============================================================= LOGO ============================================================= -->
 <div class="logo">
-	<a href="indexs.php">
+	<a href="index.php">
 		
 
 	</a>	
@@ -52,9 +52,9 @@ if(!empty($_SESSION['cart'])){
 		<a href="#" class="dropdown-toggle lnk-cart" data-toggle="dropdown">
 			<div class="items-cart-inner">
 				<div class="total-price-basket">
-					<span class="lbl">cart -</span>
+					<span class="lbl">Carrito</span>
 					<span class="total-price">
-						<span class="sign">Rs.</span>
+						<span class="sign">$</span>
 						<span class="value"><?php echo $_SESSION['tp']; ?></span>
 					</span>
 				</div>
@@ -97,7 +97,7 @@ if(!empty($_SESSION['cart'])){
 						<div class="col-xs-7">
 							
 							<h3 class="name"><a href="product-details.php?pid=<?php echo $row['id'];?>"><?php echo $row['productName']; ?></a></h3>
-							<div class="price">Rs.<?php echo ($row['productPrice']+$row['shippingCharge']); ?>*<?php echo $_SESSION['cart'][$row['id']]['quantity']; ?></div>
+							<div class="price">$<?php echo ($row['productPrice']+$row['shippingCharge']); ?>*<?php echo $_SESSION['cart'][$row['id']]['quantity']; ?></div>
 						</div>
 						
 					</div>
@@ -110,13 +110,13 @@ if(!empty($_SESSION['cart'])){
 			<div class="clearfix cart-total">
 				<div class="pull-right">
 					
-						<span class="text">Total :</span><span class='price'>Rs.<?php echo $_SESSION['tp']="$totalprice". ".00"; ?></span>
+						<span class="text">Total :</span><span class='price'>$<?php echo $_SESSION['tp']="$totalprice". ".00"; ?></span>
 						
 				</div>
 			
 				<div class="clearfix"></div>
 					
-				<a href="my-cart.php" class="btn btn-upper btn-primary btn-block m-t-20">My Cart</a>	
+				<a href="my-cart.php" class="btn btn-upper btn-primary btn-block m-t-20">Mi carrito</a>	
 			</div><!-- /.cart-total-->
 					
 				

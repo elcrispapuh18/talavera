@@ -41,14 +41,14 @@ if(isset($_GET['del']))
 
 	<div class="module">
 							<div class="module-head">
-								<h3>Manage Products</h3>
+								<h3>Gestion de productos</h3>
 							</div>
 							<div class="module-body table">
 	<?php if(isset($_GET['del']))
 {?>
 									<div class="alert alert-error">
 										<button type="button" class="close" data-dismiss="alert">×</button>
-									<strong>Oh snap!</strong> 	<?php echo htmlentities($_SESSION['delmsg']);?><?php echo htmlentities($_SESSION['delmsg']="");?>
+									<strong>oh vaya!</strong> 	<?php echo htmlentities($_SESSION['delmsg']);?><?php echo htmlentities($_SESSION['delmsg']="");?>
 									</div>
 <?php } ?>
 
@@ -59,12 +59,12 @@ if(isset($_GET['del']))
 									<thead>
 										<tr>
 											<th>#</th>
-											<th>Product Name</th>
+											<th>Nombre del producto</th>
 											<th>Categoria </th>
 											<th>Subcategoria</th>
-											<th>Company Name</th>
-											<th>Product Creation Date</th>
-											<th>Action</th>
+											<th>nombre de categoria</th>
+											<th>dato creacion de producto</th>
+											<th>Accion</th>
 										</tr>
 									</thead>
 									<tbody>

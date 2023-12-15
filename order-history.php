@@ -147,6 +147,15 @@ while($row=mysqli_fetch_array($query))
 	</div>
 </div>
 
+<style>
+.boton {
+   padding: 20px;
+   background-color: blue;
+   color: white;
+}
+</style>
+<a href="https://www.sandbox.paypal.com/checkoutnow?sessionID=uid_f551ae27cc_mta6nta6mza&buttonSessionID=uid_ee98cd1fff_mte6mdq6mza&stickinessID=uid_534e15b5c2_mta6nta6mze&smokeHash=&sign_out_user=false&fundingSource=paypal&buyerCountry=MX&locale.x=es_MX&commit=true&clientID=ATJIdi4OsWJLVk3IdT-1uKg2XsFpNe7R89Jm3pj8NwgaxUGF5WiGQMoFB96TPkR-jMpFjPFc2inLyBqW&env=sandbox&sdkMeta=eyJ1cmwiOiJodHRwczovL3d3dy5wYXlwYWwuY29tL3Nkay9qcz9jbGllbnQtaWQ9QVRKSWRpNE9zV0pMVmszSWRULTF1S2cyWHNGcE5lN1I4OUptM3BqOE53Z2F4VUdGNVdpR1FNb0ZCOTZUUGtSLWpNcEZqUEZjMmluTHlCcVcmY3VycmVuY3k9TVhOIiwiYXR0cnMiOnsiZGF0YS11aWQiOiJ1aWRfeGRyZnFrcmRqcnJma211aXNlamxqZnJkY2NscHpmIn19&xcomponent=1&version=5.0.414&token=6BB92216LF5696208" class="boton">Pago con Paypal</a>
+
 		</div><!-- /.shopping-cart -->
 		</div> <!-- /.row -->
 		</form>

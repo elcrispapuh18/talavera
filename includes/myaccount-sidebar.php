@@ -9,7 +9,7 @@
 		    <div class="panel-body">
 				<ul class="nav nav-checkout-progress list-unstyled">
 					<li><a href="my-account.php">Mi cuenta</a></li>
-					<li><a href="bill-ship-addresses.php">Shipping / Direccion de entrega</a></li>
+					<li><a href="bill-ship-addresses.php">Envio / Direccion de entrega</a></li>
 					<li><a href="order-history.php">historial de ordenes </a></li>
 					<li><a href="pending-orders.php">Orden pendiente de pago</a></li>
 				</ul>		

@@ -11,7 +11,7 @@
 
 <?php if(strlen($_SESSION['login']))
     {   ?>
-				<li><a href="#"><i class="icon fa fa-user"></i>Welcome -<?php echo htmlentities($_SESSION['username']);?></a></li>
+				<li><a href="#"><i class="icon fa fa-user"></i>Bienvenido -<?php echo htmlentities($_SESSION['username']);?></a></li>
 				<?php } ?>
 
 					<li><a href="my-account.php"><i class="icon fa fa-user"></i>Mi cuenta</a></li>
@@ -19,11 +19,12 @@
 					<li><a href="my-cart.php"><i class="icon fa fa-shopping-cart"></i>Mi carrito</a></li>
 					<?php if(strlen($_SESSION['login'])==0)
     {   ?>
-<li><a href="login.php"><i class="icon fa fa-sign-in"></i>Login</a></li>
+<li><a href="login.php"><i class="icon fa fa-sign-in"></i>Inicia sesion</a></li>
+<li><a href="admin/index.php"><i class="icon fa fa-sign-in"></i>Admin</a></li>
 <?php }
 else{ ?>
 	
-				<li><a href="logout.php"><i class="icon fa fa-sign-out"></i>Logout</a></li>
+				<li><a href="logout.php"><i class="icon fa fa-sign-out"></i>Cerrar sesion </a></li>
 				<?php } ?>	
 				</ul>
 			</div><!-- /.cnt-account -->

@@ -198,15 +198,15 @@ while($row=mysqli_fetch_array($query))
 
 
 						<div class="form-group">
-					    <label class="info-title" for="Billing State ">Shipping State  <span>*</span></label>
+					    <label class="info-title" for="Billing State ">Estado de envio  <span>*</span></label>
 			 <input type="text" class="form-control unicase-form-control text-input" id="shippingstate" name="shippingstate" value="<?php echo $row['shippingState'];?>" required>
 					  </div>
 					  <div class="form-group">
-					    <label class="info-title" for="Billing City">Shipping City <span>*</span></label>
+					    <label class="info-title" for="Billing City">Ciudad de envio <span>*</span></label>
 					    <input type="text" class="form-control unicase-form-control text-input" id="shippingcity" name="shippingcity" required="required" value="<?php echo $row['shippingCity'];?>" >
 					  </div>
  <div class="form-group">
-					    <label class="info-title" for="Billing Pincode">Shipping Pincode <span>*</span></label>
+					    <label class="info-title" for="Billing Pincode">Codigo postal <span>*</span></label>
 					    <input type="text" class="form-control unicase-form-control text-input" id="shippingpincode" name="shippingpincode" required="required" value="<?php echo $row['shippingPincode'];?>" >
 					  </div>
 

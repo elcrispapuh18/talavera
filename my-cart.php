@@ -97,7 +97,7 @@ echo "<script>alert('Direccion de envio ha sido actualizada!');</script>";
 	    <meta name="keywords" content="MediaCenter, Template, eCommerce">
 	    <meta name="robots" content="all">
 
-	    <title>My Cart</title>
+	    <title>Mi carrito</title>
 	    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	    <link rel="stylesheet" href="assets/css/main.css">
 	    <link rel="stylesheet" href="assets/css/green.css">
@@ -151,8 +151,8 @@ echo "<script>alert('Direccion de envio ha sido actualizada!');</script>";
 	<div class="container">
 		<div class="breadcrumb-inner">
 			<ul class="list-inline list-unstyled">
-				<li><a href="#">Home</a></li>
-				<li class='active'>Shopping Cart</li>
+				<li><a href="#">Bienvenido</a></li>
+				<li class='active' href="index.php">Talaveras - "El alfa"</li>
 			</ul>
 		</div><!-- /.breadcrumb-inner -->
 	</div><!-- /.container -->
@@ -254,8 +254,8 @@ $num=mysqli_num_rows($rt);
 				             
 			              </div>
 		            </td>
-					<td class="cart-product-sub-total"><span class="cart-sub-total-price"><?php echo "Rs"." ".$row['productPrice']; ?>.00</span></td>
-<td class="cart-product-sub-total"><span class="cart-sub-total-price"><?php echo "Rs"." ".$row['shippingCharge']; ?>.00</span></td>
+					<td class="cart-product-sub-total"><span class="cart-sub-total-price"><?php echo "$"." ".$row['productPrice']; ?>.00</span></td>
+<td class="cart-product-sub-total"><span class="cart-sub-total-price"><?php echo "$"." ".$row['shippingCharge']; ?>.00</span></td>
 
 					<td class="cart-product-grand-total"><span class="cart-grand-total-price"><?php echo ($_SESSION['cart'][$row['id']]['quantity']*$row['productPrice']+$row['shippingCharge']); ?>.00</span></td>
 				</tr>
@@ -295,20 +295,20 @@ while($row=mysqli_fetch_array($query))
 
 
 						<div class="form-group">
-					    <label class="info-title" for="Billing State ">Billing State  <span>*</span></label>
+					    <label class="info-title" for="Billing State ">Estado  <span>*</span></label>
 			 <input type="text" class="form-control unicase-form-control text-input" id="bilingstate" name="bilingstate" value="<?php echo $row['billingState'];?>" required>
 					  </div>
 					  <div class="form-group">
-					    <label class="info-title" for="Billing City">Billing City <span>*</span></label>
+					    <label class="info-title" for="Billing City">Ciudad <span>*</span></label>
 					    <input type="text" class="form-control unicase-form-control text-input" id="billingcity" name="billingcity" required="required" value="<?php echo $row['billingCity'];?>" >
 					  </div>
  <div class="form-group">
-					    <label class="info-title" for="Billing Pincode">Billing Pincode <span>*</span></label>
+					    <label class="info-title" for="Billing Pincode">Codigo Postal <span>*</span></label>
 					    <input type="text" class="form-control unicase-form-control text-input" id="billingpincode" name="billingpincode" required="required" value="<?php echo $row['billingPincode'];?>" >
 					  </div>
 
 
-					  <button type="submit" name="update" class="btn-upper btn btn-primary checkout-page-button">Update</button>
+					  <button type="submit" name="update" class="btn-upper btn btn-primary checkout-page-button">Actualizar</button>
 			
 					<?php } ?>
 		
@@ -347,20 +347,20 @@ while($row=mysqli_fetch_array($query))
 
 
 						<div class="form-group">
-					    <label class="info-title" for="Billing State ">Shipping State  <span>*</span></label>
+					    <label class="info-title" for="Billing State ">Estado de envio  <span>*</span></label>
 			 <input type="text" class="form-control unicase-form-control text-input" id="shippingstate" name="shippingstate" value="<?php echo $row['shippingState'];?>" required>
 					  </div>
 					  <div class="form-group">
-					    <label class="info-title" for="Billing City">Shipping City <span>*</span></label>
+					    <label class="info-title" for="Billing City">Ciudad de envio<span>*</span></label>
 					    <input type="text" class="form-control unicase-form-control text-input" id="shippingcity" name="shippingcity" required="required" value="<?php echo $row['shippingCity'];?>" >
 					  </div>
  <div class="form-group">
-					    <label class="info-title" for="Billing Pincode">Shipping Pincode <span>*</span></label>
+					    <label class="info-title" for="Billing Pincode">Codigo postal <span>*</span></label>
 					    <input type="text" class="form-control unicase-form-control text-input" id="shippingpincode" name="shippingpincode" required="required" value="<?php echo $row['shippingPincode'];?>" >
 					  </div>
 
 
-					  <button type="submit" name="shipupdate" class="btn-upper btn btn-primary checkout-page-button">Update</button>
+					  <button type="submit" name="shipupdate" class="btn-upper btn btn-primary checkout-page-button">Actualizar</button>
 					<?php } ?>
 
 		
@@ -378,7 +378,7 @@ while($row=mysqli_fetch_array($query))
 				<th>
 					
 					<div class="cart-grand-total">
-						Grand Total<span class="inner-left-md"><?php echo $_SESSION['tp']="$totalprice". ".00"; ?></span>
+						Total<span class="inner-left-md"><?php echo $_SESSION['tp']="$totalprice". ".00"; ?></span>
 					</div>
 				</th>
 			</tr>
@@ -387,7 +387,7 @@ while($row=mysqli_fetch_array($query))
 				<tr>
 					<td>
 						<div class="cart-checkout-btn pull-right">
-							<button type="submit" name="ordersubmit" class="btn btn-primary">PROCCED TO CHEKOUT</button>
+							<button type="submit" name="ordersubmit" class="btn btn-primary">Proceder a pagar</button>
 						
 						</div>
 					</td>

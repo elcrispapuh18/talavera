@@ -224,8 +224,8 @@ while ($row=mysqli_fetch_array($ret))
 
 			<div class="product-price">	
 				<span class="price">
-					Rs. <?php echo htmlentities($row['productPrice']);?>			</span>
-										     <span class="price-before-discount">Rs. <?php echo htmlentities($row['productPriceBeforeDiscount']);?></span>
+					$ <?php echo htmlentities($row['productPrice']);?>			</span>
+										     <span class="price-before-discount">$ <?php echo htmlentities($row['productPriceBeforeDiscount']);?></span>
 									
 			</div><!-- /.product-price -->
 			
@@ -240,7 +240,7 @@ while ($row=mysqli_fetch_array($ret))
 								<i class="fa fa-shopping-cart"></i>													
 							</button>
 							<a href="category.php?page=product&action=add&id=<?php echo $row['id']; ?>">
-							<button class="btn btn-primary" type="button">Add to cart</button></a>
+							<button class="btn btn-primary" type="button">Agregar al carrito</button></a>
 								<?php } else {?>
 							<div class="action" style="color:red">Out of Stock</div>
 					<?php } ?>

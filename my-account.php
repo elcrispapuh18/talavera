@@ -210,21 +210,21 @@ while($row=mysqli_fetch_array($query))
 						     
 					<form class="register-form" role="form" method="post" name="chngpwd" onSubmit="return valid();">
 <div class="form-group">
-					    <label class="info-title" for="Current Password">Current Password<span>*</span></label>
+					    <label class="info-title" for="Current Password">contraseña actual<span>*</span></label>
 					    <input type="password" class="form-control unicase-form-control text-input" id="cpass" name="cpass" required="required">
 					  </div>
 
 
 
 						<div class="form-group">
-					    <label class="info-title" for="New Password">New Password <span>*</span></label>
+					    <label class="info-title" for="New Password">Nueva contraseña <span>*</span></label>
 			 <input type="password" class="form-control unicase-form-control text-input" id="newpass" name="newpass">
 					  </div>
 					  <div class="form-group">
-					    <label class="info-title" for="Confirm Password">Confirm Password <span>*</span></label>
+					    <label class="info-title" for="Confirm Password">confirmar contraseña <span>*</span></label>
 					    <input type="password" class="form-control unicase-form-control text-input" id="cnfpass" name="cnfpass" required="required" >
 					  </div>
-					  <button type="submit" name="submit" class="btn-upper btn btn-primary checkout-page-button">Change </button>
+					  <button type="submit" name="submit" class="btn-upper btn btn-primary checkout-page-button">Cambiar </button>
 					</form> 
 
 

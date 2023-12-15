@@ -47,7 +47,7 @@ exit();
 	    <meta name="keywords" content="MediaCenter, Template, eCommerce">
 	    <meta name="robots" content="all">
 
-	    <title>Talaveras - "El alfa" | Forgot Password</title>
+	    <title href="index.php">Talaveras - "El alfa" | Forgot Password</title>
 
 	    <!-- Bootstrap Core CSS -->
 	    <link rel="stylesheet" href="assets/css/bootstrap.min.css">

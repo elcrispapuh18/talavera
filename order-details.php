@@ -87,15 +87,15 @@ popUpWin = open(URLStr,'popUpWin', 'toolbar=no,location=no,directories=no,status
 			<thead>
 				<tr>
 					<th class="cart-romove item">#</th>
-					<th class="cart-description item">Image</th>
-					<th class="cart-product-name item">Product Name</th>
+					<th class="cart-description item">Imagen</th>
+					<th class="cart-product-name item">Nombre del proyecto</th>
 			
-					<th class="cart-qty item">Quantity</th>
-					<th class="cart-sub-total item">Price Per unit</th>
-					<th class="cart-total item">Grandtotal</th>
-					<th class="cart-total item">Payment Method</th>
-					<th class="cart-description item">Order Date</th>
-					<th class="cart-total last-item">Action</th>
+					<th class="cart-qty item">Cantidad</th>
+					<th class="cart-sub-total item">Precio por unidad</th>
+					<th class="cart-total item">Total</th>
+					<th class="cart-total item">Metodo de pago</th>
+					<th class="cart-description item">Dia de pedido</th>
+					<th class="cart-total last-item">Accion</th>
 				</tr>
 			</thead><!-- /thead -->
 			

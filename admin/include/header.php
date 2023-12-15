@@ -5,7 +5,7 @@
 					<i class="icon-reorder shaded"></i>
 				</a>
 
-			  	<a class="brand" href="index.html">
+			  	<a class="brand" href="index.php">
 				  Talaveras - "El Alfa" | Admin
 			  	</a>
 
@@ -20,9 +20,9 @@
 								<b class="caret"></b>
 							</a>
 							<ul class="dropdown-menu">
-								<li><a href="change-password.php">Change Password</a></li>
+								<li><a href="change-password.php">Cambiar contraseña</a></li>
 								<li class="divider"></li>
-								<li><a href="logout.php">Logout</a></li>
+								<li><a href="logout.php">Cerrar sesion</a></li>
 							</ul>
 						</li>
 					</ul>

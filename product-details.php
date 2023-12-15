@@ -170,10 +170,10 @@ while ($rws=mysqli_fetch_array($ret)) {
 
 							<div class="product-price">	
 								<span class="price">
-									Rs. <?php echo htmlentities($rws['productPrice']);?>.00
+								$ <?php echo htmlentities($rws['productPrice']);?>.00
 								</span>
 									
-							    <span class="price-before-discount">Rs.<?php echo htmlentities($row['productPriceBeforeDiscount']);?></span>					
+							    <span class="price-before-discount">$<?php echo htmlentities($row['productPriceBeforeDiscount']);?></span>					
 							
 							</div><!-- /.product-price -->
 							
@@ -189,7 +189,7 @@ while ($rws=mysqli_fetch_array($ret)) {
 								<i class="fa fa-shopping-cart"></i>													
 							</button>
 							<a href="category.php?page=product&action=add&id=<?php echo $row['id']; ?>">
-							<button class="btn btn-primary" type="button">Add to cart</button></a>
+							<button class="btn btn-primary" type="button">Agregar al carrito</button></a>
 								<?php } else {?>
 							<div class="action" style="color:red">Out of Stock</div>
 					<?php } ?>
@@ -314,7 +314,7 @@ $num=mysqli_num_rows($rt);
 								<div class="row">
 									<div class="col-sm-3">
 										<div class="stock-box">
-											<span class="label">Availability :</span>
+											<span class="label">Disponibilidad :</span>
 										</div>	
 									</div>
 									<div class="col-sm-9">
@@ -331,7 +331,7 @@ $num=mysqli_num_rows($rt);
 								<div class="row">
 									<div class="col-sm-3">
 										<div class="stock-box">
-											<span class="label">Product Brand :</span>
+											<span class="label">Color:</span>
 										</div>	
 									</div>
 									<div class="col-sm-9">
@@ -347,14 +347,14 @@ $num=mysqli_num_rows($rt);
 								<div class="row">
 									<div class="col-sm-3">
 										<div class="stock-box">
-											<span class="label">Shipping Charge :</span>
+											<span class="label">Gasto de envio :</span>
 										</div>	
 									</div>
 									<div class="col-sm-9">
 										<div class="stock-box">
 											<span class="value"><?php if($row['shippingCharge']==0)
 											{
-												echo "Free";
+												echo "Gratis";
 											}
 											else
 											{
@@ -373,8 +373,8 @@ $num=mysqli_num_rows($rt);
 
 									<div class="col-sm-6">
 										<div class="price-box">
-											<span class="price">Rs. <?php echo htmlentities($row['productPrice']);?></span>
-											<span class="price-strike">Rs.<?php echo htmlentities($row['productPriceBeforeDiscount']);?></span>
+											<span class="price">$ <?php echo htmlentities($row['productPrice']);?></span>
+											<span class="price-strike">$<?php echo htmlentities($row['productPriceBeforeDiscount']);?></span>
 										</div>
 									</div>
 
@@ -619,8 +619,8 @@ while($rw=mysqli_fetch_array($qry))
 
 			<div class="product-price">	
 				<span class="price">
-					Rs.<?php echo htmlentities($rw['productPrice']);?>			</span>
-										     <span class="price-before-discount">Rs.
+				$<?php echo htmlentities($rw['productPrice']);?>			</span>
+										     <span class="price-before-discount">$
 										     <?php echo htmlentities($rw['productPriceBeforeDiscount']);?></span>
 									
 			</div><!-- /.product-price -->
@@ -633,7 +633,7 @@ while($rw=mysqli_fetch_array($qry))
 							<button class="btn btn-primary icon" data-toggle="dropdown" type="button">
 								<i class="fa fa-shopping-cart"></i>													
 							</button>
-						<a href="product-details.php?page=product&action=add&id=<?php echo $rw['id']; ?>" class="lnk btn btn-primary">Add to cart</a>
+						<a href="product-details.php?page=product&action=add&id=<?php echo $rw['id']; ?>" class="lnk btn btn-primary">Agregar al carrito</a>
 													
 						</li>
 	                   
