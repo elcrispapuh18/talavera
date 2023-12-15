@@ -66,14 +66,14 @@ popUpWin = open(URLStr,'popUpWin', 'toolbar=no,location=no,directories=no,status
 									<thead>
 										<tr>
 											<th>#</th>
-											<th> Name</th>
-											<th width="50">Email /Contact no</th>
-											<th>Shipping Address</th>
-											<th>Product </th>
+											<th> Nombre </th>
+											<th width="50">Email de contacto</th>
+											<th>Direccion de envio</th>
+											<th>Producto </th>
 											<th>Qty </th>
-											<th>Amount </th>
-											<th>Order Date</th>
-											<th>Action</th>
+											<th>cantidad </th>
+											<th>datos de orden</th>
+											<th>Accion</th>
 											
 										
 										</tr>

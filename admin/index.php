@@ -52,7 +52,7 @@ exit();
 				</a>
 
 			  	<a class="brand" href="index.html">
-				  Talaveras "El lobo" | Admin
+				  Talaveras "El alfa" | Admin
 			  	</a>
 
 				<div class="nav-collapse collapse navbar-inverse-collapse">
@@ -60,7 +60,7 @@ exit();
 					<ul class="nav pull-right">
 
 						<li><a href="http://localhost/shopping/">
-						Back to Portal
+						Volver a la tienda 
 						
 						</a></li>
 
@@ -81,7 +81,7 @@ exit();
 				<div class="module module-login span4 offset4">
 					<form class="form-vertical" method="post">
 						<div class="module-head">
-							<h3>Sign In</h3>
+							<h3>Inicia sesion</h3>
 						</div>
 						<span style="color:red;" ><?php echo htmlentities($_SESSION['errmsg']); ?><?php echo htmlentities($_SESSION['errmsg']="");?></span>
 						<div class="module-body">
@@ -114,7 +114,7 @@ exit();
 		<div class="container">
 			 
 
-			<b class="copyright">&copy; 2017 Talaveras - "El lobo" </b> ":3"
+			<b class="copyright">&copy; 2017 Talaveras - "El alfa" </b> ":3"
 		</div>
 	</div>
 	<script src="scripts/jquery-1.9.1.min.js" type="text/javascript"></script>

@@ -128,9 +128,9 @@ if(!empty($_SESSION['cart'])){
 		<a href="#" class="dropdown-toggle lnk-cart" data-toggle="dropdown">
 			<div class="items-cart-inner">
 				<div class="total-price-basket">
-					<span class="lbl">cart -</span>
+					<span class="lbl">Carrito de compras</span>
 					<span class="total-price">
-						<span class="sign">Rs.</span>
+						<span class="sign">$</span>
 						<span class="value">00.00</span>
 					</span>
 				</div>
@@ -150,7 +150,7 @@ if(!empty($_SESSION['cart'])){
 				<div class="cart-item product-summary">
 					<div class="row">
 						<div class="col-xs-12">
-							Your Shopping Cart is Empty.
+							Deberias de comprar algo...
 						</div>
 						
 						
@@ -164,7 +164,7 @@ if(!empty($_SESSION['cart'])){
 				
 				<div class="clearfix"></div>
 					
-				<a href="index.php" class="btn btn-upper btn-primary btn-block m-t-20">Continue Shooping</a>	
+				<a href="index.php" class="btn btn-upper btn-primary btn-block m-t-20">continuar comprando</a>	
 			</div><!-- /.cart-total-->
 					
 				

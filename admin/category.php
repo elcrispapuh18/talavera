@@ -112,9 +112,9 @@ if(isset($_GET['del']))
 											<th>#</th>
 											<th>Categoria</th>
 											<th>Descripcion</th>
-											<th>Creation date</th>
-											<th>Last Updated</th>
-											<th>Action</th>
+											<th>Fecha de creacion</th>
+											<th>Ultima actualizacion</th>
+											<th>Accion</th>
 										</tr>
 									</thead>
 									<tbody>

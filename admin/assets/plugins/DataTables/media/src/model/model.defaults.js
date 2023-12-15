@@ -1431,19 +1431,19 @@ DataTable.defaults = {
 		 * parameter - if it is not given, the value of sZeroRecords will be used
 		 * instead (either the default or given value).
 		 *  @type string
-		 *  @default No data available in table
+		 *  @default No hay datos disponibles en la tabla
 		 *  @dtopt Language
 		 * 
 		 *  @example
 		 *    $(document).ready( function() {
 		 *      $('#example').dataTable( {
 		 *        "oLanguage": {
-		 *          "sEmptyTable": "No data available in table"
+		 *          "sEmptyTable": "No hay datos disponibles en la tabla"
 		 *        }
 		 *      } );
 		 *    } );
 		 */
-		"sEmptyTable": "No data available in table",
+		"sEmptyTable": "No hay datos disponibles en la tabla",
 	
 	
 		/**

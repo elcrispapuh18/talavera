@@ -17,7 +17,7 @@ else{
 		$query=mysqli_query($con,"update users set billingAddress='$baddress',billingState='$bstate',billingCity='$bcity',billingPincode='$bpincode' where id='".$_SESSION['id']."'");
 		if($query)
 		{
-echo "<script>alert('Billing Address has been updated');</script>";
+echo "<script>alert('La dirección de facturación ha sido actualizada.');</script>";
 		}
 	}
 
@@ -32,7 +32,7 @@ echo "<script>alert('Billing Address has been updated');</script>";
 		$query=mysqli_query($con,"update users set shippingAddress='$saddress',shippingState='$sstate',shippingCity='$scity',shippingPincode='$spincode' where id='".$_SESSION['id']."'");
 		if($query)
 		{
-echo "<script>alert('Shipping Address has been updated');</script>";
+echo "<script>alert('La direccion de envio ha sido actualizada');</script>";
 		}
 	}
 
@@ -117,7 +117,7 @@ echo "<script>alert('Shipping Address has been updated');</script>";
 		<div class="panel-heading">
     	<h4 class="unicase-checkout-title">
 	        <a data-toggle="collapse" class="" data-parent="#accordion" href="#collapseOne">
-	          <span>1</span>Billing Address
+	          <span>1</span>La dirección de facturación ha sido actualizada.
 	        </a>
 	     </h4>
     </div>
@@ -138,7 +138,7 @@ while($row=mysqli_fetch_array($query))
 
 					<form class="register-form" role="form" method="post">
 <div class="form-group">
-					    <label class="info-title" for="Billing Address">Billing Address<span>*</span></label>
+					    <label class="info-title" for="Billing Address">La dirección de facturación ha sido actualizada.<span>*</span></label>
 					    <textarea class="form-control unicase-form-control text-input"  name="billingaddress" required="required"><?php echo $row['billingAddress'];?></textarea>
 					  </div>
 
@@ -176,7 +176,7 @@ while($row=mysqli_fetch_array($query))
 						    <div class="panel-heading">
 						      <h4 class="unicase-checkout-title">
 						        <a data-toggle="collapse" class="collapsed" data-parent="#accordion" href="#collapseTwo">
-						          <span>2</span>Shipping Address
+						          <span>2</span>direccion de envio
 						        </a>
 						      </h4>
 						    </div>
@@ -191,7 +191,7 @@ while($row=mysqli_fetch_array($query))
 
 					<form class="register-form" role="form" method="post">
 <div class="form-group">
-					    <label class="info-title" for="Shipping Address">Shipping Address<span>*</span></label>
+					    <label class="info-title" for="Shipping Address">Direccion de envio<span>*</span></label>
 					    <textarea class="form-control unicase-form-control text-input" " name="shippingaddress" required="required"><?php echo $row['shippingAddress'];?></textarea>
 					  </div>
 
