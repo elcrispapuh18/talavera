@@ -12,17 +12,21 @@
 		}
 	}
 ?>
+<div style='display:flex;justify-content:center;'  >
+<img src="assets/images/logo.png" width="200"
+  height="200" />
+</div>
 	<div class="main-header">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-3 logo-holder">
 					<!-- ============================================================= LOGO ============================================================= -->
 <div class="logo">
-	<a href="index.php">
+	<a href="indexs.php">
 		
-		<h2>Shopping Portal</h2>
 
-	</a>
+	</a>	
+
 </div>		
 </div>
 <div class="col-xs-12 col-sm-12 col-md-6 top-search-holder">
@@ -30,7 +34,7 @@
     <form name="search" method="post" action="search-result.php">
         <div class="control-group">
 
-            <input class="search-field" placeholder="Search here..." name="product" required="required" />
+            <input class="search-field" placeholder="Busca lo que gustes..." name="product" required="required" />
 
             <button class="search-button" type="submit" name="search"></button>    
 

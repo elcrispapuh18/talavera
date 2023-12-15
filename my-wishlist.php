@@ -47,7 +47,7 @@ header('location:my-wishlist.php');
 	    <meta name="keywords" content="MediaCenter, Template, eCommerce">
 	    <meta name="robots" content="all">
 
-	    <title>My Wishlist</title>
+	    <title>Lista de deseos</title>
 	    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	    
 	    <!-- Customizable CSS -->
@@ -113,7 +113,7 @@ header('location:my-wishlist.php');
 		<table class="table">
 			<thead>
 				<tr>
-					<th colspan="4">my wishlist</th>
+					<th colspan="4">Lista de deseos</th>
 				</tr>
 			</thead>
 			<tbody>

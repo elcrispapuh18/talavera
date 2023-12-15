@@ -46,7 +46,7 @@ $_SESSION['msg']="Category Updated !!";
 
 						<div class="module">
 							<div class="module-head">
-								<h3>Category</h3>
+								<h3>Categoria</h3>
 							</div>
 							<div class="module-body">
 

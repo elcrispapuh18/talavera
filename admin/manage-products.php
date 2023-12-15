@@ -60,8 +60,8 @@ if(isset($_GET['del']))
 										<tr>
 											<th>#</th>
 											<th>Product Name</th>
-											<th>Category </th>
-											<th>Subcategory</th>
+											<th>Categoria </th>
+											<th>Subcategoria</th>
 											<th>Company Name</th>
 											<th>Product Creation Date</th>
 											<th>Action</th>

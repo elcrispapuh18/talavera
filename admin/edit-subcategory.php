@@ -46,7 +46,7 @@ $_SESSION['msg']="Sub-Category Updated !!";
 
 						<div class="module">
 							<div class="module-head">
-								<h3>Edit SubCategory</h3>
+								<h3>Editar SubCategoria</h3>
 							</div>
 							<div class="module-body">
 
@@ -70,7 +70,7 @@ while($row=mysqli_fetch_array($query))
 ?>		
 
 <div class="control-group">
-<label class="control-label" for="basicinput">Category</label>
+<label class="control-label" for="basicinput">Categoria</label>
 <div class="controls">
 <select name="category" class="span8 tip" required>
 <option value="<?php echo htmlentities($row['id']);?>"><?php echo htmlentities($catname=$row['categoryName']);?></option>

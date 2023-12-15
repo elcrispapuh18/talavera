@@ -35,7 +35,7 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 	    <meta name="keywords" content="MediaCenter, Template, eCommerce">
 	    <meta name="robots" content="all">
 
-	    <title>Shopping Portal Home Page</title>
+	    <title>Talaveras - "El lobo" Pagina de inicio</title>
 
 	    <!-- Bootstrap Core CSS -->
 	    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -95,13 +95,13 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 <div id="hero" class="homepage-slider3">
 	<div id="owl-main" class="owl-carousel owl-inner-nav owl-ui-sm">
 		<div class="full-width-slider">	
-			<div class="item" style="background-image: url(assets/images/sliders/slider1.png);">
+			<div class="item" style="background-image: url(assets/images/sliders/slider1.jpg);">
 				<!-- /.container-fluid -->
 			</div><!-- /.item -->
 		</div><!-- /.full-width-slider -->
 	    
 	    <div class="full-width-slider">
-			<div class="item full-width-slider" style="background-image: url(assets/images/sliders/slider2.png);">
+			<div class="item full-width-slider" style="background-image: url(assets/images/sliders/slider2.jpg);">
 			</div><!-- /.item -->
 		</div><!-- /.full-width-slider -->
 
@@ -120,10 +120,10 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 						     <i class="icon fa fa-dollar"></i>
 						</div>
 						<div class="col-xs-10">
-							<h4 class="info-box-heading green">money back</h4>
+							<h4 class="info-box-heading green">Politica de devolucion</h4>
 						</div>
 					</div>	
-					<h6 class="text">30 Day Money Back Guarantee.</h6>
+					<h6 class="text">Despues de 30 dias ya no se devolvera el producto</h6>
 				</div>
 			</div><!-- .col -->
 
@@ -134,10 +134,10 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 							<i class="icon fa fa-truck"></i>
 						</div>
 						<div class="col-xs-10">
-							<h4 class="info-box-heading orange">free shipping</h4>
+							<h4 class="info-box-heading orange">Envio gratis</h4>
 						</div>
 					</div>
-					<h6 class="text">free ship-on oder over Rs. 600.00</h6>	
+					<h6 class="text">El envio sera gratis apartir de los 500$</h6>	
 				</div>
 			</div><!-- .col -->
 
@@ -148,10 +148,10 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 							<i class="icon fa fa-gift"></i>
 						</div>
 						<div class="col-xs-10">
-							<h4 class="info-box-heading red">Special Sale</h4>
+							<h4 class="info-box-heading red">Ofertas especiales</h4>
 						</div>
 					</div>
-					<h6 class="text">All items-sale up to 20% off </h6>	
+					<h6 class="text">Por temporada descuento del 20% </h6>	
 				</div>
 			</div><!-- .col -->
 		</div><!-- /.row -->
@@ -166,11 +166,10 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 		<!-- ============================================== SCROLL TABS ============================================== -->
 		<div id="product-tabs-slider" class="scroll-tabs inner-bottom-vs  wow fadeInUp">
 			<div class="more-info-tab clearfix">
-			   <h3 class="new-product-title pull-left">Featured Products</h3>
+			   <h3 class="new-product-title pull-left">Productos destacados</h3>
 				<ul class="nav nav-tabs nav-tab-line pull-right" id="new-products-1">
-					<li class="active"><a href="#all" data-toggle="tab">All</a></li>
-					<li><a href="#books" data-toggle="tab">Books</a></li>
-					<li><a href="#furniture" data-toggle="tab">Furniture</a></li>
+					<li class="active"><a href="#all" data-toggle="tab">Todos</a></li>
+
 				</ul><!-- /.nav-tabs -->
 			</div>
 

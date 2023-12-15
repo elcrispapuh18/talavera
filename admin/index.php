@@ -114,7 +114,7 @@ exit();
 		<div class="container">
 			 
 
-			<b class="copyright">&copy; 2017 Shopping Portal </b> All rights reserved.
+			<b class="copyright">&copy; 2017 Talaveras - "El lobo" </b> ":3"
 		</div>
 	</div>
 	<script src="scripts/jquery-1.9.1.min.js" type="text/javascript"></script>

@@ -9,16 +9,16 @@
         <div class="logo">
             <a href="index.php">
                 
-<h3>Shopping Portal</h3>
+<h3>Talaveras - "El Alfa"</h3>
             </a>
         </div><!-- /.logo -->
     
     </div><!-- /.footer-logo -->
 
      <div class="module-body m-t-20">
-        <p class="about-us"> Nam libero tempore, cum soluta nobis est ses  eligendi optio cumque cum soluta nobis est ses  eligendi optio cumque.</p>
+        <p class="about-us"> Talaveras el alfa se dedican a la creacion, heraboracion y comercializacion de productos artesanales que son realizados a mano de talaveras tipicas del municipio del San Pablo del monte, Tlaxcala</p>
     
-        <div class="social-icons">
+        <div class="social-icons" style='display:flex;justify-content:center;'>
             
         <a href="http://facebook.com/transvelo" class='active'><i class="icon fa fa-facebook"></i></a>
         <a href="#"><i class="icon fa fa-twitter"></i></a>
@@ -36,16 +36,16 @@
             		 <!-- ============================================================= CONTACT TIMING============================================================= -->
 <div class="contact-timing">
 	<div class="module-heading">
-		<h4 class="module-title">opening time</h4>
+		<h4 class="module-title">Hora de servicio</h4>
 	</div><!-- /.module-heading -->
 
 	<div class="module-body outer-top-xs">
 		<div class="table-responsive">
 			<table class="table">
 				<tbody>
-					<tr><td>Monday-Friday:</td><td class="pull-right">08.00 To 18.00</td></tr>
-					<tr><td>Saturday:</td><td class="pull-right">09.00 To 20.00</td></tr>
-					<tr><td>Sunday:</td><td class="pull-right">10.00 To 20.00</td></tr>
+					
+					<tr><td>De lunes a sabado</td><td class="pull-right">09.00 To 20.00</td></tr>
+					<tr><td>Domingos</td><td class="pull-right">10.00 To 20.00</td></tr>
 				</tbody>
 			</table>
 		</div><!-- /.table-responsive -->
@@ -53,11 +53,11 @@
 </div><!-- /.contact-timing -->
 <!-- ============================================================= CONTACT TIMING : END ============================================================= -->            	</div><!-- /.col -->
 
-            	<div class="col-xs-12 col-sm-6 col-md-4">
+            	<div class="col-xs-15 col-sm-6 col-md-4">
             		 <!-- ============================================================= INFORMATION============================================================= -->
 <div class="contact-information">
-	<div class="module-heading">
-		<h4 class="module-title">information</h4>
+	<div class="module-heading" style='display:flex;justify-content:center;'>
+		<h4 class="module-title">informacion de contacto</h4>
 	</div><!-- /.module-heading -->
 
 	<div class="module-body outer-top-xs">
@@ -70,7 +70,7 @@
                     </span>
                 </div>
                 <div class="media-body">
-                    <p>New Delhi, Delhi</p>
+                    <p>San Pablo del monte centro, Tlaxcala</p>
                 </div>
             </li>
 
@@ -82,7 +82,7 @@
                     </span>
                 </div>
                 <div class="media-body">
-                    <p>(011) 000000000000<br>(011) 000000000000</p>
+                    <p>.............<br>.............</p>
                 </div>
             </li>
 
@@ -94,7 +94,7 @@
                     </span>
                 </div>
                 <div class="media-body">
-                    <span><a href="#">info@company.com</a></span>
+                    <span><a href="#"></a></span>
                 </div>
             </li>
               
